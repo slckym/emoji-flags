@@ -1,0 +1,27 @@
+{
+    "name": "slckym/flags",
+    "description": "Laravel Unicode Flags",
+    "authors": [
+        {
+            "name": "Selçuk Yıldırım",
+            "email": "selcukyildirim@me.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Slckym\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Slckym\\Flags\\FlagsServiceProvider"
+            ]
+        }
+    }
+}
