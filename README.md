@@ -1,0 +1,3 @@
+# emoji-flags
+
+For Laravel
